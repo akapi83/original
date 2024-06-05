@@ -1,4 +1,6 @@
-*, ::before, ::after {
+*,
+::before,
+::after {
   box-sizing: border-box;
   margin: 0;
 }
@@ -41,7 +43,7 @@ header {
   position: relative;
 }
 
-#hero > div {
+#hero>div {
   color: #fff;
   position: absolute;
   top: 50%;
@@ -87,7 +89,7 @@ header {
 
 .img_box img {
   border-radius: 50%;
-  
+
 }
 
 .text_box {
